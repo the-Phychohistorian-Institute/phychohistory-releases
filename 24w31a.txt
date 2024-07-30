@@ -1,0 +1,21 @@
+#include<iostream>
+using namespace std;
+int main(){
+	int number_of_cultures_in_a_reigon;
+    bool merge_into_one_nation;
+    cin>>number_of_cultures_in_a_reigon;
+    if(number_of_cultures_in_a_reigon>=1){
+        merge_into_one_nation=0;
+    }
+    else{
+        merge_into_one_nation=1;
+    }
+    cout<<merge_into_one_nation;
+    return 0;
+}
+//to understand the result: 
+//if(output=0){
+//merge_into_one_nation=false
+//}
+//else{
+//merge_into_one_nation=true
